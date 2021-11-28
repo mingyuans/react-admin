@@ -41,15 +41,15 @@ function handleResize(handler: (isMobile: boolean) => void) {
  * @param handler 执行回调
  */
 function fetchSmenu(handler: any) {
-    const setAlitaMenu = (menus: any) => {
-        handler(menus);
-        // this.props.setAlitaState({ stateName: 'smenus', data: menus });
-    };
-    setAlitaMenu(umbrella.getLocalStorage('smenus') || []);
-    fetchMenu().then((smenus) => {
-        setAlitaMenu(smenus);
-        umbrella.setLocalStorage('smenus', smenus);
-    });
+    // const setAlitaMenu = (menus: any) => {
+    //     handler(menus);
+    //     // this.props.setAlitaState({ stateName: 'smenus', data: menus });
+    // };
+    // setAlitaMenu(umbrella.getLocalStorage('smenus') || []);
+    // fetchMenu().then((smenus) => {
+    //     setAlitaMenu(smenus);
+    //     umbrella.setLocalStorage('smenus', smenus);
+    // });
 }
 
 const App = (props: AppProps) => {
