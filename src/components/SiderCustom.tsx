@@ -9,6 +9,7 @@ import SiderMenu from './SiderMenu';
 import { useAlita } from 'redux-alita';
 import { useSwitch } from '../utils/hooks';
 import { usePrevious } from 'ahooks';
+import logoImage from '../style/imgs/logo.png';
 const { Sider } = Layout;
 
 type SiderCustomProps = RouteComponentProps<any> & {
