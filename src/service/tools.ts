@@ -11,6 +11,7 @@ interface IFRequestParam {
     config?: any;
     data?: any;
 }
+
 /**
  * 公用get请求
  * @param url       接口地址

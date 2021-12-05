@@ -1,0 +1,11 @@
+.QRCode {
+    width: 450px;
+    height: 450px;
+}
+
+.QRCodeLayout {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-content: center;
+}
