@@ -9,3 +9,8 @@ build:
 .PHONY: image.build
 image.build: build
 	@docker build -t registry.cn-qingdao.aliyuncs.com/haotuanzhushou/admin:$(VERSION) .
+
+
+.PHONY: image.push
+image.push: image.build
+	@docker push registry.cn-qingdao.aliyuncs.com/haotuanzhushou/admin:$(VERSION)
