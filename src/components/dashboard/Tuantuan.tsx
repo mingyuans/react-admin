@@ -47,6 +47,7 @@ export const Tuantuan = (props: Props) => {
             .then((response) => {
                 console.log(response);
                 setIsLogged(true);
+                setQRCode('');
             });
     };
 
