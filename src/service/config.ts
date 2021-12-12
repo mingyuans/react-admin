@@ -19,4 +19,5 @@ export const GIT_USER = 'https://api.github.com/user';
 export const NEWS_BBC =
     'https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=429904aa01f54a39a278a406acf50070';
 
-export const API_DOMAIN: string = 'http://0.0.0.0:8080';
+export const API_DOMAIN: string = 'https://vps.mingyuans.me';
+// export const API_DOMAIN: string = 'http://0.0.0.0:8080';
