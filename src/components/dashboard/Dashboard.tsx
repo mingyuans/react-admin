@@ -2,8 +2,8 @@
  * Created by hao.cheng on 2017/5/3.
  */
 import React from 'react';
-import { WechatStatus } from './WechatStatus';
-import { KttStatus } from './KTTStatus';
+import { Wechat } from './Wechat';
+import { Tuantuan } from './Tuantuan';
 
 class Dashboard extends React.Component {
     render() {
@@ -17,8 +17,8 @@ class Dashboard extends React.Component {
                     alignContent: 'center',
                 }}
             >
-                <WechatStatus />
-                <KttStatus />
+                <Wechat />
+                <Tuantuan />
             </div>
         );
     }
